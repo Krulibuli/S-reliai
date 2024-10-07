@@ -1,0 +1,102 @@
+    /* General Body */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+    /* Grid for the main layout */
+.container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    height: 100vh;
+}
+
+.nav{
+    width: 500px;
+    background-color: #191919;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Navigation Side Bar */
+    /* DONILA Logo */
+.logo-section{
+    background-color: #fc3e59;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+    /* Navigation Links */
+.nav-menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-menu a{
+    color: white;
+    padding: 10px 0;
+    text-decoration: none;
+    display: block;
+    align-items: center;
+    font-size: 25px;
+}
+
+.nav-menu a:hover{
+    color: #fc3e59;
+}
+
+
+    /* Divider */
+.divider{
+    border-bottom: 1px solid #555;
+    margin: 20px 0;
+}
+
+    /* Contact Information */
+.contact-info{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.contact-info p{
+    margin: 10px 0;
+    font-size: 25px;
+}
+
+.contact-info i{
+    margin-right: 10px;
+}
+
+    /* Social Icons */
+.social-icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-icons a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.social-icons a:hover{
+    color: #fc3e59;
+}
+
+.social-icon-box{
+    border: 1px solid white;
+    padding: 20px;
+}
+
+.social-icon-box:hover{
+    border: 1px solid #fc3e59;
+}
