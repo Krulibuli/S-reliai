@@ -1,102 +1,130 @@
-    /* General Body */
-*{
-    box-sizing: border-box;
+/* General Body */
+* {
+  box-sizing: border-box;
 }
 
-body{
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-    /* Grid for the main layout */
-.container{
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    height: 100vh;
+/* Divider */
+.divider {
+  border-bottom: 2px solid #555;
+  margin: 30px;
 }
 
-.nav{
-    width: 500px;
-    background-color: #191919;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+/* Grid for the main layout */
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+/* Sidebar */
+.nav {
+  width: 400px;
+  background-color: #191919;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /* Navigation Side Bar */
-    /* DONILA Logo */
-.logo-section{
-    background-color: #fc3e59;
-    color: white;
-    text-align: center;
-    padding: 40px 0;
-    font-size: 28px;
-    font-weight: bold;
+#logo-section {
+  background-color: #fc3e59;
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
 }
-    /* Navigation Links */
-.nav-menu{
-    display: flex;
-    flex-direction: column;
+#logo-section img {
+  width: 70%;
 }
 
-.nav-menu a{
-    color: white;
-    padding: 10px 0;
-    text-decoration: none;
-    display: block;
-    align-items: center;
-    font-size: 25px;
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+  padding-left: 75px;
+  margin-top: 40px;
+  line-height: 50px;
 }
 
-.nav-menu a:hover{
-    color: #fc3e59;
+.nav-menu a {
+  color: white;
+  padding: 10px 0;
+  text-decoration: none;
+  font-size: 25px;
 }
 
-
-    /* Divider */
-.divider{
-    border-bottom: 1px solid #555;
-    margin: 20px 0;
+.nav-menu a:hover {
+  color: #fc3e59;
 }
 
-    /* Contact Information */
-.contact-info{
-    color: white;
-    margin-bottom: 20px;
+/* Contact Information */
+.contact-info {
+  color: white;
+  padding-left: 75px;
 }
 
-.contact-info p{
-    margin: 10px 0;
-    font-size: 25px;
+.contact-info p {
+  margin: 10px 0;
+  font-size: 25px;
 }
 
-.contact-info i{
-    margin-right: 10px;
+/* Social Icons */
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  margin-bottom: 50px;
 }
 
-    /* Social Icons */
-.social-icons{
-    display: flex;
-    justify-content: space-between;
+.social-icons a {
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
 }
 
-.social-icons a{
-    color: white;
-    font-size: 30px;
-    text-decoration: none;
+.social-icons a:hover {
+  color: #fc3e59;
 }
 
-.social-icons a:hover{
-    color: #fc3e59;
+.social-icon-box {
+  border: 1px solid white;
+  padding: 20px;
 }
 
-.social-icon-box{
-    border: 1px solid white;
-    padding: 20px;
+.social-icon-box:hover {
+  border: 1px solid #fc3e59;
 }
 
-.social-icon-box:hover{
-    border: 1px solid #fc3e59;
+/* Main Content */
+
+/* Footer */
+.footer {
+  background-color: #363636;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  padding: 100px;
+  font-family: "Open Sans";
+}
+.footer img {
+  width: 200px;
+}
+.footer-socials {
+  color: white;
+  padding: 10px 0;
+  text-decoration: none;
+  font-size: 25px;
+  word-spacing: 5px;
+}
+.copyright {
+  padding-top: 20px;
+  color: gray;
+  font-size: 18px;
 }
