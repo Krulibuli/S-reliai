@@ -128,3 +128,72 @@ body {
   color: gray;
   font-size: 18px;
 }
+.Wedding{
+  position: absolute;
+  bottom: 65px;
+  left: 400px;
+}
+.WEDDING{
+  font-size: 110px;
+  line-height: 100px;
+  color: #ffffff;
+  font-family: "Octin Sports Rg";
+  position: absolute;
+  left: 760px;
+  bottom: 635px;
+}
+.House{
+  font-size: 110px;
+  line-height: 100px;
+  color: #ffffff;
+  font-family: "Octin Sports Rg";
+  position: absolute;
+  left: 770px;
+  bottom: 535px;
+}
+.Lorem{
+  width: 900px;
+  height: 80px;
+  font-size: 17px;
+  line-height: 30px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Open Sans";
+  position: absolute;
+  left: 780px;
+  bottom: 460px;
+}
+.Ipsom{
+  width: 900px;
+  height: 80px;
+  font-size: 17px;
+  line-height: 30px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Open Sans";
+  position: absolute;
+  left: 780px;
+  bottom: 430px;
+}
+.Randomised{
+  width: 900px;
+  height: 80px;
+  font-size: 17px;
+  line-height: 30px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Open Sans";
+  position: absolute;
+  left: 780px;
+  bottom: 400px
+}
+.Contact{
+  width: 179px;
+  height: 71px;
+  color: #ffffff;
+  position: absolute;
+  text-align: center;
+  left: 780px;
+  bottom: 330px;
+  background-color: #fc3e59;
+}
