@@ -1,0 +1,103 @@
+/* General Body */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Divider */
+.divider {
+  border-bottom: 2px solid #555;
+  margin: 30px;
+}
+
+/* Grid for the main layout */
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+/* Sidebar */
+.nav {
+  width: 400px;
+  background-color: #191919;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Navigation Side Bar */
+#logo-section {
+  background-color: #fc3e59;
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+}
+#logo-section img {
+  width: 70%;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+  padding-left: 75px;
+  margin-top: 40px;
+  line-height: 50px;
+}
+
+.nav-menu a {
+  color: white;
+  padding: 10px 0;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.nav-menu a:hover {
+  color: #fc3e59;
+}
+
+/* Contact Information */
+.contact-info {
+  color: white;
+  padding-left: 75px;
+}
+
+.contact-info p {
+  margin: 10px 0;
+  font-size: 25px;
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  margin-bottom: 50px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #fc3e59;
+}
+
+.social-icon-box {
+  border: 1px solid white;
+  padding: 20px;
+}
+
+.social-icon-box:hover {
+  border: 1px solid #fc3e59;
+}
