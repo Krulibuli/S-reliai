@@ -218,8 +218,9 @@ body {
   background-color: #fc3e59;
   padding: 20px;
   color: white;
+  transition: background-color 0.3s ease;
 }
-/* icons */
+/* Icons */
 .user-icon{
   font-size: 20px;
   line-height: 35px;

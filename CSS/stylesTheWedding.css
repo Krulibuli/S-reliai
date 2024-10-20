@@ -1,103 +1,270 @@
-/* General Body */
+/* General Reset */
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
+  background-color: #fff;
+  color: #333;
 }
 
-/* Divider */
+/* ABOUT US Section Styling */
+.about-us {
+  text-align: center;
+  padding: 50px 0;
+  font-size: 50px;
+  line-height: 35px;
+  color: #262626;
+  font-family: "Octin Sports Rg";
+}
+
 .divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0;
+  position: relative;
+}
+
+.divider .line {
+  width: 100%;
+  border: none;
+  border-top: 2px solid #333;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 1;
+}
+.fdivider {
   border-bottom: 2px solid #555;
   margin: 30px;
 }
 
-/* Grid for the main layout */
+.divider i {
+  background-color: white; /* To ensure the icon is clearly visible */
+  padding: 0 10px;
+  font-size: 20px;
+  color: #e74c3c; /* Color for the diamond */
+  z-index: 2; /* Bring the icon above the line */
+}
+
 .container {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 40px;
 }
 
-/* Sidebar */
-.nav {
-  width: 400px;
-  background-color: #191919;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+.title {
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
 }
 
-/* Navigation Side Bar */
-#logo-section {
-  background-color: #fc3e59;
-  color: white;
+.title .highlight {
+  color: #e74c3c; /* Red color to match the 'Us' part */
+}
+
+.image-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.main-image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.content p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  opacity: 0.8;
+}
+
+.read-more {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: "Octin Sports Rg";
+  font-size: 17px;
+}
+
+.read-more:hover {
+  background-color: #e74c3c;
+}
+
+
+
+/* HAPPY COUPLE Section Styling */
+.wdivider {
+  width: 50%; 
+  border: none; 
+  border-top: 2px solid white; 
+  margin: 10px auto 20px; 
+}
+.happy-couple-section {
+  padding: 80px 20px;
   text-align: center;
-  box-sizing: border-box;
-}
-#logo-section img {
-  width: 70%;
+  font-family: "Octin Sports Rg";
 }
 
-.nav-menu {
+.happy-couple-section .container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.happy-couple-section .section-title {
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.happy-couple-section .section-title .highlight {
+  color: #e74c3c; /* Red highlight for 'Couple' */
+}
+
+.happy-couple-section .subtitle {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 40px;
+  opacity: 0.8;
+}
+
+.content-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.text-box {
+  background-image: url(../IMAGES/textbackground.png); 
+  color: #fff;
+  padding: 20px;
+  width: 30%;
+  text-align: left;
   display: flex;
   flex-direction: column;
-  padding-left: 75px;
-  margin-top: 40px;
-  line-height: 50px;
+  justify-content: center;
+  font-family: "Octin Sports Rg";
+  text-align: center;
+  /* 
+
+font-size: 17px;
+line-height: 35px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Open Sans";
+text-align: center; */
 }
 
-.nav-menu a {
+.text-box h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.text-box p {
+  font-size: 17px;
+  line-height: 35px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-family: "Open Sans";
+}
+
+.text-box .read-more-btn {
+  background-color: transparent;
+  border: 4px solid #fff;
+  color: #fff;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.text-box .read-more-btn:hover {
+  background-color: #fff;
+  color: #e74c3c;
+}
+
+/* Middle Image Grid */
+.image-grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  width: 30%;
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;
+
+}
+
+/* Right Large Image */
+.large-image {
+  width: 35%;
+}
+
+.large-image img {
+  width: 100%;
+  height: auto;
+
+}
+
+/* See More Button */
+.see-more-btn-container {
+  text-align: center;
+}
+
+.see-more-btn {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: "Octin Sports Rg";
+}
+
+.see-more-btn:hover {
+  background-color: #e74c3c;
+}
+
+
+/* Footer */
+.footer {
+  background-color: #363636;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  padding: 100px;
+  font-family: "Open Sans";
+}
+.footer img {
+  width: 200px;
+}
+.footer-socials {
   color: white;
   padding: 10px 0;
   text-decoration: none;
   font-size: 25px;
+  word-spacing: 5px;
 }
-
-.nav-menu a:hover {
-  color: #fc3e59;
-}
-
-/* Contact Information */
-.contact-info {
-  color: white;
-  padding-left: 75px;
-}
-
-.contact-info p {
-  margin: 10px 0;
-  font-size: 25px;
-}
-
-/* Social Icons */
-.social-icons {
-  display: flex;
-  justify-content: space-between;
-  padding: 50px;
-  margin-bottom: 50px;
-}
-
-.social-icons a {
-  color: white;
-  font-size: 30px;
-  text-decoration: none;
-}
-
-.social-icons a:hover {
-  color: #fc3e59;
-}
-
-.social-icon-box {
-  border: 1px solid white;
-  padding: 20px;
-}
-
-.social-icon-box:hover {
-  border: 1px solid #fc3e59;
+.copyright {
+  padding-top: 20px;
+  color: gray;
+  font-size: 18px;
 }
