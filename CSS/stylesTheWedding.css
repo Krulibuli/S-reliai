@@ -105,14 +105,13 @@ body {
   background-color: #e74c3c;
 }
 
-
-
 /* HAPPY COUPLE Section styling */
 .wdivider {
-  width: 50%; 
-  border: none; 
-  border-top: 2px solid white; 
-  margin: 10px auto 20px; 
+  width: 50%;
+  border: none;
+  border-top: 2px solid white;
+  margin: 10px auto 20px;
+  color: white;
 }
 .happy-couple-section {
   padding: 80px 20px;
@@ -134,7 +133,7 @@ body {
 }
 
 .happy-couple-section .section-title .highlight {
-  color: #e74c3c; 
+  color: #e74c3c;
 }
 
 .happy-couple-section .subtitle {
@@ -152,7 +151,7 @@ body {
 }
 
 .text-box {
-  background-image: url(../IMAGES/textbackground.png); 
+  background-image: url(../IMAGES/textbackground.png);
   color: #fff;
   padding: 20px;
   width: 30%;
@@ -202,7 +201,6 @@ body {
 .image-grid img {
   width: 100%;
   height: auto;
-
 }
 
 /* Right large image */
@@ -213,7 +211,6 @@ body {
 .large-image img {
   width: 100%;
   height: auto;
-
 }
 
 /* See more button */
@@ -234,7 +231,6 @@ body {
 .see-more-btn:hover {
   background-color: #e74c3c;
 }
-
 
 /* Footer */
 .footer {
