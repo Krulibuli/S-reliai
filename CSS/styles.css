@@ -131,7 +131,7 @@ body {
 /* Main content */
 .Wedding{
   position: absolute;
-  bottom: -42px;
+  bottom: -27px;
   left: 400px;
 }
 .WEDDING{
@@ -140,7 +140,7 @@ body {
   color: #ffffff;
   font-family: "Octin Sports Rg";
   position: absolute;
-  left: 760px;
+  left: 640px;
   bottom: 525px;
 }
 .House{
@@ -149,7 +149,7 @@ body {
   color: #ffffff;
   font-family: "Octin Sports Rg";
   position: absolute;
-  left: 770px;
+  left: 660px;
   bottom: 425px;
 }
 .Lorem{
@@ -161,7 +161,7 @@ body {
   font-weight: 400;
   font-family: "Open Sans";
   position: absolute;
-  left: 780px;
+  left: 660px;
   bottom: 360px;
 }
 .Ipsom{
@@ -173,7 +173,7 @@ body {
   font-weight: 400;
   font-family: "Open Sans";
   position: absolute;
-  left: 780px;
+  left: 660px;
   bottom: 330px;
 }
 .Randomised{
@@ -185,7 +185,7 @@ body {
   font-weight: 400;
   font-family: "Open Sans";
   position: absolute;
-  left: 780px;
+  left: 660px;
   bottom: 300px
 }
 .login{
@@ -207,7 +207,7 @@ body {
   font-family: "Octin Sports Rg";
   position: absolute;
   text-align: center;
-  left: 780px;
+  left: 660px;
   bottom: 220px;
 }
 .button{
@@ -241,4 +241,22 @@ body {
   position: absolute;
   bottom: 880px;
   left: 1810px;
+}
+.right{
+  font-size: 24px;
+  line-height: 94px;
+  color: #ffffff;
+  font-family: "icofont";
+  position: absolute;
+  left: 1820px;
+  bottom: -20px;
+}
+.left{
+  font-size: 24px;
+  line-height: 94px;
+  color: #ffffff;
+  font-family: "icofont";
+  position: absolute;
+  left: 1780px;
+  bottom: -20px;  
 }
