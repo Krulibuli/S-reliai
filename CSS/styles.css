@@ -1,4 +1,4 @@
-/* General Body */
+/* General */
 * {
   box-sizing: border-box;
 }
@@ -34,7 +34,7 @@ body {
   justify-content: space-between;
 }
 
-/* Navigation Side Bar */
+/* Navigation side bar */
 #logo-section {
   background-color: #fc3e59;
   color: white;
@@ -64,7 +64,7 @@ body {
   color: #fc3e59;
 }
 
-/* Contact Information */
+/* Contact information */
 .contact-info {
   color: white;
   padding-left: 75px;
@@ -75,7 +75,7 @@ body {
   font-size: 25px;
 }
 
-/* Social Icons */
+/* Social icons */
 .social-icons {
   display: flex;
   justify-content: space-between;
@@ -128,7 +128,7 @@ body {
   color: gray;
   font-size: 18px;
 }
-/* Main Content */
+/* Main content */
 .Wedding{
   position: absolute;
   bottom: -42px;

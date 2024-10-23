@@ -1,4 +1,4 @@
-/* General Reset */
+/* General */
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +11,7 @@ body {
   color: #333;
 }
 
-/* ABOUT US Section Styling */
+/* ABOUT US Section styling */
 .about-us {
   text-align: center;
   padding: 50px 0;
@@ -45,11 +45,11 @@ body {
 }
 
 .divider i {
-  background-color: white; /* To ensure the icon is clearly visible */
+  background-color: white;
   padding: 0 10px;
   font-size: 20px;
-  color: #e74c3c; /* Color for the diamond */
-  z-index: 2; /* Bring the icon above the line */
+  color: #e74c3c;
+  z-index: 2;
 }
 
 .container {
@@ -67,7 +67,7 @@ body {
 }
 
 .title .highlight {
-  color: #e74c3c; /* Red color to match the 'Us' part */
+  color: #e74c3c;
 }
 
 .image-container {
@@ -107,7 +107,7 @@ body {
 
 
 
-/* HAPPY COUPLE Section Styling */
+/* HAPPY COUPLE Section styling */
 .wdivider {
   width: 50%; 
   border: none; 
@@ -134,7 +134,7 @@ body {
 }
 
 .happy-couple-section .section-title .highlight {
-  color: #e74c3c; /* Red highlight for 'Couple' */
+  color: #e74c3c; 
 }
 
 .happy-couple-section .subtitle {
@@ -162,14 +162,6 @@ body {
   justify-content: center;
   font-family: "Octin Sports Rg";
   text-align: center;
-  /* 
-
-font-size: 17px;
-line-height: 35px;
-color: #ffffff;
-font-weight: 400;
-font-family: "Open Sans";
-text-align: center; */
 }
 
 .text-box h2 {
@@ -199,7 +191,7 @@ text-align: center; */
   color: #e74c3c;
 }
 
-/* Middle Image Grid */
+/* Middle image grid */
 .image-grid {
   display: grid;
   grid-template-rows: 1fr 1fr;
@@ -213,7 +205,7 @@ text-align: center; */
 
 }
 
-/* Right Large Image */
+/* Right large image */
 .large-image {
   width: 35%;
 }
@@ -224,7 +216,7 @@ text-align: center; */
 
 }
 
-/* See More Button */
+/* See more button */
 .see-more-btn-container {
   text-align: center;
 }
