@@ -5,7 +5,6 @@
 
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
   background-color: #f4f4f4;
   height: 100vh;
   display: flex;
@@ -21,17 +20,18 @@ body {
 /* Grid for the main layout */
 .container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-grow: 1;
 }
 
 /* Sidebar */
 .nav {
-  width: 400px;
+  width: 399px;
   background-color: #191919;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  
 }
 
 /* Navigation side bar */
@@ -48,11 +48,14 @@ body {
 .nav-menu {
   display: flex;
   flex-direction: column;
-  padding-left: 75px;
+  padding-left: 40px;
   margin-top: 40px;
   line-height: 50px;
+  font-family: "Poppins";
 }
-
+nav {
+  position: fixed;
+}
 .nav-menu a {
   color: white;
   padding: 10px 0;
@@ -102,8 +105,6 @@ body {
   border: 1px solid #fc3e59;
 }
 
-
-
 /* Footer */
 .footer {
   background-color: #363636;
@@ -129,8 +130,13 @@ body {
   font-size: 18px;
 }
 /* Main content */
+.main-content {
+  background-image: url('../IMAGES/Wedding.png');
+  background-size: cover;
+  width: 100%;
+}
 .Wedding{
-  position: absolute;
+  /* position: absolute;  NEGALIMA NAUDOTI!!! */
   bottom: -27px;
   left: 400px;
 }

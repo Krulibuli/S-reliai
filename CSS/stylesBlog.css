@@ -6,10 +6,102 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
   background-color: #333;
   color: #fff;
 }
+/* Off Canvas NAVBAR */
+.offcanvas-start {
+  background-color: #191919;
+}
+.offcanvas-body {
+  padding: 0px!important;
+  background-color: #191919;
+}
+
+
+/* Divider */
+.dividerer {
+  border-bottom: 2px solid #555;
+  margin: 30px;
+}
+
+/* Sidebar */
+.nb {
+  width: 100%;
+  background-color: #191919;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Navigation side bar */
+#logo-section {
+  background-color: #fc3e59;
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+}
+#logo-section img {
+  width: 70%;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+  padding-left: 75px;
+  margin-top: 40px;
+  line-height: 50px;
+
+}
+.nav-menu a {
+  color: white;
+  padding: 10px 0;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.nav-menu a:hover {
+  color: #fc3e59;
+}
+
+/* Contact information */
+.contact-info {
+  color: white;
+  padding-left: 75px;
+}
+
+.contact-info p {
+  margin: 10px 0;
+  font-size: 25px;
+}
+
+/* Social icons */
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  margin-bottom: 50px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #fc3e59;
+}
+
+.social-icon-box {
+  border: 1px solid white;
+  padding: 20px;
+}
+
+.social-icon-box:hover {
+  border: 1px solid #fc3e59;
+}
+
 /* OUR STORY */
 .container-fluid {
   display: flex;
@@ -18,13 +110,15 @@ body {
 }
 
 .left-section {
+
+  width: 50%;
   flex: 1;
-  padding: 50px;
   background-color: #1c1c1c;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: flex-end;
+  padding: 100px;
 }
 
 .left-section h1 {
@@ -64,12 +158,9 @@ body {
   align-items: center;
   background-size: cover;
   background-position: center;
+  width: 50%;
 }
 
-.right-section img {
-  max-width: 100%;
-  height: auto;
-}
 /* Footer */
 .footer {
   background-color: #363636;
