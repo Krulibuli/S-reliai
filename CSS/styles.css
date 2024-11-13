@@ -1,37 +1,37 @@
 /* General */
+/* General */
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
-
 body {
-  margin: 0;
-  background-color: #f4f4f4;
   height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
+/* Off Canvas NAVBAR */
+.offcanvas-start {
+  background-color: #191919;
+}
+.offcanvas-body {
+  padding: 0px;
+}
+
 /* Divider */
-.divider {
+.dividerer {
   border-bottom: 2px solid #555;
   margin: 30px;
 }
 
-/* Grid for the main layout */
-.container {
-  display: flex;
-  flex-direction: row;
-  flex-grow: 1;
-}
-
 /* Sidebar */
-.nav {
-  width: 399px;
+.nb {
+  width: 100%;
   background-color: #191919;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
 }
 
 /* Navigation side bar */
@@ -48,13 +48,10 @@ body {
 .nav-menu {
   display: flex;
   flex-direction: column;
-  padding-left: 40px;
+  padding-left: 75px;
   margin-top: 40px;
   line-height: 50px;
-  font-family: "Poppins";
-}
-nav {
-  position: fixed;
+
 }
 .nav-menu a {
   color: white;
@@ -105,6 +102,39 @@ nav {
   border: 1px solid #fc3e59;
 }
 
+.Wedding-Main {
+  font-size: 110px;
+line-height: 100px;
+color: #ffffff;
+font-family: "Octin Sports Rg";
+padding-left: 500px;
+padding-top: 200px;
+}
+.Main-Para {
+  width: 900px;
+height: 80px;
+font-size: 17px;
+line-height: 30px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Open Sans";
+padding-left: 500px;
+}
+.button-main {
+  margin-left: 500px;
+  margin-top: 125px;
+  margin-bottom: 300px;
+}
+button {
+  font-size: 17px;
+  line-height: 100px;
+  background-color: #fc3e59;
+  color: #ffffff;
+  font-family: "Octin Sports Rg";
+  width: 200px;
+  border: none;
+  padding: 20px;
+}
 /* Footer */
 .footer {
   background-color: #363636;
@@ -134,135 +164,4 @@ nav {
   background-image: url('../IMAGES/Wedding.png');
   background-size: cover;
   width: 100%;
-}
-.Wedding{
-  /* position: absolute;  NEGALIMA NAUDOTI!!! */
-  bottom: -27px;
-  left: 400px;
-}
-.WEDDING{
-  font-size: 110px;
-  line-height: 100px;
-  color: #ffffff;
-  font-family: "Octin Sports Rg";
-  position: absolute;
-  left: 640px;
-  bottom: 525px;
-}
-.House{
-  font-size: 110px;
-  line-height: 100px;
-  color: #ffffff;
-  font-family: "Octin Sports Rg";
-  position: absolute;
-  left: 660px;
-  bottom: 425px;
-}
-.Lorem{
-  width: 900px;
-  height: 80px;
-  font-size: 17px;
-  line-height: 30px;
-  color: #ffffff;
-  font-weight: 400;
-  font-family: "Open Sans";
-  position: absolute;
-  left: 660px;
-  bottom: 360px;
-}
-.Ipsom{
-  width: 900px;
-  height: 80px;
-  font-size: 17px;
-  line-height: 30px;
-  color: #ffffff;
-  font-weight: 400;
-  font-family: "Open Sans";
-  position: absolute;
-  left: 660px;
-  bottom: 330px;
-}
-.Randomised{
-  width: 900px;
-  height: 80px;
-  font-size: 17px;
-  line-height: 30px;
-  color: #ffffff;
-  font-weight: 400;
-  font-family: "Open Sans";
-  position: absolute;
-  left: 660px;
-  bottom: 300px
-}
-.login{
-  font-size: 17px;
-  line-height: 35px;
-  text-transform: uppercase;
-  color: #ffffff;
-  font-family: "Helvetica";
-  text-align: center;
-  position:absolute;
-  left: 1710px;
-  bottom: 860px;
-}
-/* Button */
-.Contact{
-  font-size: 17px;
-  line-height: 80px;
-  color: #ffffff;
-  font-family: "Octin Sports Rg";
-  position: absolute;
-  text-align: center;
-  left: 660px;
-  bottom: 220px;
-}
-.button{
-  background: none;
-  border: none;
-  outline: none;
-  box-shadow: none;
-  background-color: #fc3e59;
-  padding: 20px;
-  color: white;
-  transition: background-color 0.3s ease;
-}
-/* Icons */
-.user-icon{
-  font-size: 20px;
-  line-height: 35px;
-  text-transform: uppercase;
-  color: #ffffff;
-  font-family: "icofont";
-  text-align: center;
-  position: absolute;
-  left: 1670px;
-  bottom: 880px; 
-}
-.glass{
-  font-size: 20px;
-  line-height: 35px;
-  color: #ffffff;
-  font-family: "icofont";
-  text-align: center;
-  position: absolute;
-  bottom: 880px;
-  left: 1810px;
-}
-.right{
-  font-size: 24px;
-  line-height: 94px;
-  color: #ffffff;
-  font-family: "icofont";
-  position: absolute;
-  left: 1820px;
-  bottom: -20px;
-}
-.left{
-  font-size: 24px;
-  line-height: 94px;
-  color: #ffffff;
-  font-family: "icofont";
-  position: absolute;
-  left: 1780px;
-  bottom: -20px;  
 }
